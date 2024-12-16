@@ -1,0 +1,31 @@
+header{
+    background-color: #fedcea ;
+}
+
+body{
+    margin: 0;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.img-logo{
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+}
+
+.barra-navegacion{
+    display: flex;
+    margin-right: 100px;
+}
+
+.links-navegacion a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #D53880;
+    font-weight: 600;
+}
