@@ -87,12 +87,60 @@ header{
 
 .imagen-marco img{
     display: flex;
-    width: 100vw;
+    width: 100%;
     height: 30vw;
+    margin-bottom: 0;
+    z-index: 5;
+    position: absolute;
+}
+.imagen-marco{
+    height: 0;
 }
 
 
 .productos{
-
+    height: 22cm;
     width: 100%;
+    background-color: #f9bdd9;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.productos img{
+    height: 380px;
+    width: 380px;
+    display: flex;
+    border-radius: 25px;
+    margin-top: 8vw;
+}
+
+.productos h1{
+    font-family: sans-serif;
+    color: #170004;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.productos p{
+    text-align: center;
+    font-family:sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.boton-productos {
+    background-color: #f9309e;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: white;
+    font-size: larger;
 }
