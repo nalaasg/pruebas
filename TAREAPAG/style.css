@@ -1,10 +1,12 @@
+body{
+    margin: 0;
+    width: 100vw;
+}
+
 header{
     background-color: #fedcea ;
 }
 
-body{
-    margin: 0;
-}
 .section1{
     display: flex;
     justify-content: space-between;
@@ -28,4 +30,69 @@ body{
     font-family: sans-serif;
     color: #D53880;
     font-weight: 600;
+}
+
+.section2-h1-form{
+    background-color: #fedcea;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.img-section2 img {
+    height: 500px;
+    width: 650px;
+    display: flex;
+    justify-content: right;
+    margin-right: 125px;
+}
+
+.content-section2{
+    flex: 1;
+    margin-left: 10vh;
+    align-items: center;
+}
+
+.content-section2 h1{
+    font-family: sans-serif;
+    color: #f9309e;
+    font-size: 10vh;
+    margin-left: 10vh;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.content-section2 p{
+    margin-left: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-top: 0;
+}
+
+.content-section2 button {
+    background-color: #f9309e;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 350px;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    color: white;
+    font-size: larger;
+}
+
+
+
+.imagen-marco img{
+    display: flex;
+    width: 100vw;
+    height: 30vw;
+}
+
+
+.productos{
+
+    width: 100%;
 }
