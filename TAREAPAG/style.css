@@ -112,6 +112,13 @@ header{
     
 }
 
+.productos button{
+    background-color: #f9309e;
+    padding: 20px;
+    border-radius: 100px;
+    border: #f9309e;
+}
+
 .productos img{
     height: 380px;
     width: 380px;
@@ -151,8 +158,8 @@ header{
 .background-section3{
     background-color: #fedcea;
     display: flex;
-    justify-content: center;
     justify-content: space-around;
+    align-items: center;
 }
 
 .background-section3 img{
@@ -162,7 +169,53 @@ header{
     margin-bottom: 15%;
 }
 
-.formularios {
+.formulario-section3 {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 0;
+
+}
+
+.formulario-section3 h1{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #f9309e;
+    margin-bottom: 50px;
+}
+
+
+
+.formulario form {
+    box-sizing: border-box;
+    background-color: #f9309e;
+    padding: 5%;
+    width: 8cm;
+    border-radius: 20px;
+    padding-left: 0;
+    padding-right: 40px;
+    padding-top: 30px;
+}
+
+.formulario ol {
+    list-style: none;
+    justify-content: center;
+}
+
+.formulario li {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+
+.pepe{
+    display: flex;
+    flex-direction: column;
+    background-color: #f9bdd9;
+    border-radius: 10px;
+    font-family: sans-serif;
+    padding: 6%;
 }
